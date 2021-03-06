@@ -1,7 +1,6 @@
-package de.sconto.steps;
+package de.sconto.steps_login;
 
 import de.sconto.pages.HomePage;
-import de.sconto.pages.LoginPage;
 import io.cucumber.java8.En;
 
 import static com.codeborne.selenide.Condition.exist;

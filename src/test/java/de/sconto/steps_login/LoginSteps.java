@@ -1,4 +1,4 @@
-package de.sconto.steps;
+package de.sconto.steps_login;
 
 import com.codeborne.selenide.Condition;
 import de.sconto.pages.HomePage;
