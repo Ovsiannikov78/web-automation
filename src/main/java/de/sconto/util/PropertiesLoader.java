@@ -1,4 +1,4 @@
-package com.herokuapp.util;
+package de.sconto.util;
 
 import java.io.IOException;
 import java.util.Properties;
