@@ -20,7 +20,7 @@ public class HomePage {
 
     /* Properties */
 
-    public static String basicURL = PropertiesLoader.loadProperty("url");
+    public static String basicURL = PropertiesLoader.loadProperty("scontoUrl");
 
     /* Elements */
 

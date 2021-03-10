@@ -3,7 +3,8 @@ package com.herokuapp.steps;
 import io.cucumber.java8.En;
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.herokuapp.pages.BasePage.basicURL;
+
+import static com.herokuapp.pages.BasePage.herokuBasicUrl;
 
 /**
  * CommonSteps

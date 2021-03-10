@@ -3,9 +3,12 @@ Feature: MoemaxPage
   @moemax
   Scenario Outline: MoemaxPage Tests
     Given I open MoemaxPage page
-    When I search for the <color> color
-    Then I see the filter <color> is applied
+    When I select the filter <filter>
+    And I apply <value> value
+    Then I see the value with number <filter_number> and value <value> with number <filter_number> is applied
 
     Examples:
-      | color |
-      | weiß  |
+      | value | filter | filter_number |
+      | weiß  | Farbe  | 1             |
+      | Amica | Marke  | 2             |
+      | Based | Marke  | 3             |
