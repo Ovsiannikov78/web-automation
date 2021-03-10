@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"json:target/cucumber-report.json", "pretty"},
-        glue = "com.herokuapp",
+        glue = "de.moemax",
         strict = true,
-        tags = "@search"
+        tags = "@moemax"
 )
 public class RunCookiesTest {
 }

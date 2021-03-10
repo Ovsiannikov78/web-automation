@@ -11,5 +11,7 @@ import org.openqa.selenium.WebDriver;
  */
 public class BasePage {
 
-    public static String basicURL = PropertiesLoader.loadProperty("url");
+    public static String herokuBasicUrl = PropertiesLoader.loadProperty("herokuUrl");
+
+    public static String moemaxBasicURL = PropertiesLoader.loadProperty("moemaxUrl");
 }
