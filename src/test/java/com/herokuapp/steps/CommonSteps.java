@@ -1,9 +1,8 @@
 package com.herokuapp.steps;
 
 import io.cucumber.java8.En;
-
 import static com.codeborne.selenide.Selenide.open;
-import static com.herokuapp.pages.BasePage.basicURL;
+import static com.herokuapp.pages.BasePage.*;
 
 /**
  * CommonSteps
@@ -21,6 +20,10 @@ public class CommonSteps implements En {
             }
             if (page.equals("Login")) {
                 open(basicURL + "/login");
+            }
+            if (page.equals("GlovoSignup")) {
+                open(basicGlovoURL + "/signup");
+
             }
         });
     }

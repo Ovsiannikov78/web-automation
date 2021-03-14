@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 public class BasePage {
 
     public static String basicURL = PropertiesLoader.loadProperty("url");
+    public static String basicGlovoURL = PropertiesLoader.loadProperty("glovoUrl");
 
     public static WebDriver driver;
 
