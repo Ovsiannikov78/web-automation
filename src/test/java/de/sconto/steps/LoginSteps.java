@@ -27,8 +27,8 @@ public class LoginSteps implements En {
         });
 
         Then("I see Login page", () -> {
-           loginPage.loginPageHeader().should(Condition.exist);
-           loginPage.loginPageHeader().shouldHave(text("Anmelden"));
+            loginPage.loginPageHeader().should(Condition.exist);
+            loginPage.loginPageHeader().shouldHave(text("Anmelden"));
         });
 
         When("I insert valid user credentials", () -> {

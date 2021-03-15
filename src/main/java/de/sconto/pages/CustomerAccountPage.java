@@ -10,5 +10,7 @@ public class CustomerAccountPage {
     /* Elements */
     private static By title = By.cssSelector(".titleHeadline");
 
-    public SelenideElement accountTitle() { return $(title); }
+    public SelenideElement accountTitle() {
+        return $(title);
+    }
 }

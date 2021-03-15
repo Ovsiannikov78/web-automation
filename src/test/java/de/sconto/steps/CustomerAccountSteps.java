@@ -16,7 +16,7 @@ public class CustomerAccountSteps implements En {
 
     CustomerAccountPage customerAccountPage;
 
-    public CustomerAccountSteps(){
+    public CustomerAccountSteps() {
 
         Then("I should be logged in", () -> {
             customerAccountPage = page(CustomerAccountPage.class);

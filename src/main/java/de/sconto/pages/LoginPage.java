@@ -25,9 +25,11 @@ public class LoginPage {
         $(pwdInput).setValue(validPwd);
     }
 
-    public void clickLoginBtn(){
+    public void clickLoginBtn() {
         $(loginBtn).click();
     }
 
-    public SelenideElement loginPageHeader() {return $(loginHeader); }
+    public SelenideElement loginPageHeader() {
+        return $(loginHeader);
+    }
 }

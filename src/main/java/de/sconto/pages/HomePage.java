@@ -3,6 +3,7 @@ package de.sconto.pages;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import com.herokuapp.pages.BasePage;
 import de.sconto.util.PropertiesLoader;
 import org.openqa.selenium.By;
 
@@ -29,7 +30,7 @@ public class HomePage {
     private static By carouselImg = By.cssSelector(".carouselImage");
 
 
-    public void acceptCookies(){
+    public void acceptCookies() {
         $(acceptBtn).click();
         $(banner).shouldNot(Condition.exist);
     }
@@ -43,5 +44,7 @@ public class HomePage {
         $(loginIcon).hover();
     }
 
-    public SelenideElement carousel(){ return $(carouselImg); }
+    public SelenideElement carousel() {
+        return $(carouselImg);
+    }
 }

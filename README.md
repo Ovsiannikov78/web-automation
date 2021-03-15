@@ -1,14 +1,16 @@
 ## web-automation
 
-This is the web test automation project for testing. It was built using Java 8, Selenium 3, Cucumber and Selenide frameworks [http://selenide.org/index.html ].
+This is the web test automation project for testing. It was built using Java 8, Selenium 3, Cucumber and Selenide
+frameworks [http://selenide.org/index.html ].
 
 ## Features
 
 Project has tree feature files which represents the following scenarios:
-  
- Login:
-  * Login with valid user credentials from the Homepage
-  
+
+Login:
+
+* Login with valid user credentials from the Homepage
+
 Feature files location:
 
 `src\test\resources\de\sconto\`
